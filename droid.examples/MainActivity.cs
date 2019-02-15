@@ -35,7 +35,7 @@ namespace droid.examples
             int id = item.ItemId;
             if (id == Resource.Id.action_settings)
             {
-                var settingsIntent = new Intent(this, typeof(SettingsActivity));
+                var settingsIntent = new Intent(this, typeof(SettingsWithHeadersActivity));
                 StartActivity(settingsIntent);
                 return true;
             }

@@ -4786,7 +4786,7 @@ namespace droid.examples
 		{
 			
 			// aapt resource value: 0x7f070000
-			public const int app_preferences = 2131165184;
+			public const int app_preferences_for_header = 2131165184;
 			
 			// aapt resource value: 0x7f070001
 			public const int preference_headers = 2131165185;
