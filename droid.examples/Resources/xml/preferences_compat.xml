@@ -1,0 +1,7 @@
+﻿<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="example_switch"
+        android:summary="android support v7 preference SwitchPreferenceCompat"
+        android:title="Example swich v7" />
+</PreferenceScreen>

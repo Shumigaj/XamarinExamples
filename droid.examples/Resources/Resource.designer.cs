@@ -2585,8 +2585,11 @@ namespace droid.examples
 			// aapt resource value: 0x7f09005b
 			public const int action_mode_close_button = 2131296347;
 			
+			// aapt resource value: 0x7f0900b7
+			public const int action_settings_compat = 2131296439;
+			
 			// aapt resource value: 0x7f0900b6
-			public const int action_settings = 2131296438;
+			public const int action_settings_with_headers = 2131296438;
 			
 			// aapt resource value: 0x7f09009c
 			public const int action_text = 2131296412;
@@ -3484,8 +3487,14 @@ namespace droid.examples
 			// aapt resource value: 0x7f0b0014
 			public const int abc_toolbar_collapse_description = 2131427348;
 			
+			// aapt resource value: 0x7f0b002d
+			public const int action_settings = 2131427373;
+			
+			// aapt resource value: 0x7f0b002e
+			public const int action_settings_compat = 2131427374;
+			
 			// aapt resource value: 0x7f0b002c
-			public const int action_settings = 2131427372;
+			public const int action_settings_with_headers = 2131427372;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int app_name = 2131427371;
@@ -4790,6 +4799,9 @@ namespace droid.examples
 			
 			// aapt resource value: 0x7f070001
 			public const int preference_headers = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int preferences_compat = 2131165186;
 			
 			static Xml()
 			{
