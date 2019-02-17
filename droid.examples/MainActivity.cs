@@ -35,6 +35,10 @@ namespace droid.examples
             // When false, the system sets the default values only if this method has never been called in the past.
             PreferenceManager.SetDefaultValues(this, Resource.Xml.preferences_compat, false);
 
+            PreferenceManager.SetDefaultValues(this, Resource.Xml.pref_group_accounts, false);
+            PreferenceManager.SetDefaultValues(this, Resource.Xml.pref_group_general, false);
+            PreferenceManager.SetDefaultValues(this, Resource.Xml.pref_group_notifications, false);
+
             // Read the settings from the shared preferences
             var sharedPref = PreferenceManager.GetDefaultSharedPreferences(this);
             var switchPref = sharedPref.GetBoolean(SettingsCompatActivity.KEY_PREF_EXAMPLE_SWITCH, false);
@@ -61,6 +65,11 @@ namespace droid.examples
                 case Resource.Id.action_settings_with_headers:
                     {
                         settingActivityType = typeof(SettingsWithHeadersActivity);
+                        break;
+                    }
+                case Resource.Id.action_grouped_settings:
+                    {
+                        settingActivityType = typeof(GroupedSettingsActivity);
                         break;
                     }
             }

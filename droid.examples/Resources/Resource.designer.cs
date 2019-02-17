@@ -105,6 +105,31 @@ namespace droid.examples
 			}
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f0f0002
+			public const int pref_group_market_titles = 2131689474;
+			
+			// aapt resource value: 0x7f0f0003
+			public const int pref_group_market_values = 2131689475;
+			
+			// aapt resource value: 0x7f0f0000
+			public const int pref_group_themes_list_titles = 2131689472;
+			
+			// aapt resource value: 0x7f0f0001
+			public const int pref_group_themes_list_values = 2131689473;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -2419,26 +2444,26 @@ namespace droid.examples
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02006a
-			public const int avd_hide_password_1 = 2130837610;
-			
 			// aapt resource value: 0x7f02006b
-			public const int avd_hide_password_2 = 2130837611;
+			public const int avd_hide_password_1 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int avd_hide_password_3 = 2130837612;
+			public const int avd_hide_password_2 = 2130837612;
+			
+			// aapt resource value: 0x7f02006d
+			public const int avd_hide_password_3 = 2130837613;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02006d
-			public const int avd_show_password_1 = 2130837613;
-			
 			// aapt resource value: 0x7f02006e
-			public const int avd_show_password_2 = 2130837614;
+			public const int avd_show_password_1 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int avd_show_password_3 = 2130837615;
+			public const int avd_show_password_2 = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public const int avd_show_password_3 = 2130837616;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2459,49 +2484,52 @@ namespace droid.examples
 			public const int design_snackbar_background = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int navigation_empty_icon = 2130837595;
+			public const int ic_memory_black_24dp = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int notification_action_background = 2130837596;
+			public const int navigation_empty_icon = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int notification_bg = 2130837597;
+			public const int notification_action_background = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int notification_bg_low = 2130837598;
+			public const int notification_bg = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int notification_bg_low_normal = 2130837599;
+			public const int notification_bg_low = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int notification_bg_low_pressed = 2130837600;
+			public const int notification_bg_low_normal = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int notification_bg_normal = 2130837601;
+			public const int notification_bg_low_pressed = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int notification_bg_normal_pressed = 2130837602;
+			public const int notification_bg_normal = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_icon_background = 2130837603;
-			
-			// aapt resource value: 0x7f020068
-			public const int notification_template_icon_bg = 2130837608;
-			
-			// aapt resource value: 0x7f020069
-			public const int notification_template_icon_low_bg = 2130837609;
+			public const int notification_bg_normal_pressed = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int notification_tile_bg = 2130837604;
+			public const int notification_icon_background = 2130837604;
+			
+			// aapt resource value: 0x7f020069
+			public const int notification_template_icon_bg = 2130837609;
+			
+			// aapt resource value: 0x7f02006a
+			public const int notification_template_icon_low_bg = 2130837610;
 			
 			// aapt resource value: 0x7f020065
-			public const int notify_panel_notification_icon_bg = 2130837605;
+			public const int notification_tile_bg = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int tooltip_frame_dark = 2130837606;
+			public const int notify_panel_notification_icon_bg = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int tooltip_frame_light = 2130837607;
+			public const int tooltip_frame_dark = 2130837607;
+			
+			// aapt resource value: 0x7f020068
+			public const int tooltip_frame_light = 2130837608;
 			
 			static Drawable()
 			{
@@ -2566,6 +2594,9 @@ namespace droid.examples
 			
 			// aapt resource value: 0x7f0900a1
 			public const int action_divider = 2131296417;
+			
+			// aapt resource value: 0x7f0900b8
+			public const int action_grouped_settings = 2131296440;
 			
 			// aapt resource value: 0x7f09009b
 			public const int action_image = 2131296411;
@@ -3356,8 +3387,8 @@ namespace droid.examples
 		public partial class Menu
 		{
 			
-			// aapt resource value: 0x7f0f0000
-			public const int menu_main = 2131689472;
+			// aapt resource value: 0x7f100000
+			public const int menu_main = 2131755008;
 			
 			static Menu()
 			{
@@ -3487,6 +3518,9 @@ namespace droid.examples
 			// aapt resource value: 0x7f0b0014
 			public const int abc_toolbar_collapse_description = 2131427348;
 			
+			// aapt resource value: 0x7f0b002f
+			public const int action_grouped_settings = 2131427375;
+			
 			// aapt resource value: 0x7f0b002d
 			public const int action_settings = 2131427373;
 			
@@ -3522,6 +3556,45 @@ namespace droid.examples
 			
 			// aapt resource value: 0x7f0b002a
 			public const int path_password_strike_through = 2131427370;
+			
+			// aapt resource value: 0x7f0b0033
+			public const int pref_group_folder_name_defailt_value = 2131427379;
+			
+			// aapt resource value: 0x7f0b0034
+			public const int pref_group_folder_name_title = 2131427380;
+			
+			// aapt resource value: 0x7f0b003c
+			public const int pref_group_header_accounts = 2131427388;
+			
+			// aapt resource value: 0x7f0b0030
+			public const int pref_group_header_general = 2131427376;
+			
+			// aapt resource value: 0x7f0b0036
+			public const int pref_group_header_notifications = 2131427382;
+			
+			// aapt resource value: 0x7f0b0039
+			public const int pref_group_ringtone_silent = 2131427385;
+			
+			// aapt resource value: 0x7f0b0035
+			public const int pref_group_themes = 2131427381;
+			
+			// aapt resource value: 0x7f0b003b
+			public const int pref_group_title_account_settings = 2131427387;
+			
+			// aapt resource value: 0x7f0b0037
+			public const int pref_group_title_new_message_notifications = 2131427383;
+			
+			// aapt resource value: 0x7f0b0038
+			public const int pref_group_title_ringtone = 2131427384;
+			
+			// aapt resource value: 0x7f0b003a
+			public const int pref_group_title_vibrate = 2131427386;
+			
+			// aapt resource value: 0x7f0b0032
+			public const int pref_group_wifi_summary = 2131427378;
+			
+			// aapt resource value: 0x7f0b0031
+			public const int pref_group_wifi_title = 2131427377;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int search_menu_title = 2131427349;
@@ -4798,10 +4871,22 @@ namespace droid.examples
 			public const int app_preferences_for_header = 2131165184;
 			
 			// aapt resource value: 0x7f070001
-			public const int preference_headers = 2131165185;
+			public const int pref_group_accounts = 2131165185;
 			
 			// aapt resource value: 0x7f070002
-			public const int preferences_compat = 2131165186;
+			public const int pref_group_general = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public const int pref_group_headers = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public const int pref_group_notifications = 2131165188;
+			
+			// aapt resource value: 0x7f070005
+			public const int preference_headers = 2131165189;
+			
+			// aapt resource value: 0x7f070006
+			public const int preferences_compat = 2131165190;
 			
 			static Xml()
 			{

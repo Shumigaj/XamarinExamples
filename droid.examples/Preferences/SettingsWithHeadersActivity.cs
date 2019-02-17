@@ -1,5 +1,4 @@
 ﻿using Android.App;
-using Android.Content;
 using Android.OS;
 using Android.Preferences;
 using Android.Runtime;
@@ -8,7 +7,6 @@ using System.Collections.Generic;
 namespace droid.examples.Preferences
 {
     [Activity(Label = "Settings with headers activity", Theme = "@style/AppTheme")]
-    [IntentFilter(new string[] { "android.intent.action.APPLICATION_PREFERENCES" })]
     public class SettingsWithHeadersActivity : PreferenceActivity
     {
         public override void OnBuildHeaders(IList<Header> target)

@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Preferences\AppCompatPreferenceActivity.cs" />
+    <Compile Include="Preferences\GroupedSettingsActivity.cs" />
     <Compile Include="Preferences\SettingsCompatActivity.cs" />
     <Compile Include="Preferences\SettingsWithHeadersActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -112,6 +114,21 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\xml\preferences_compat.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\pref_group_headers.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_memory_black_24dp.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\pref_group_general.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\pref_group_accounts.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\pref_group_notifications.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
