@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">droid.accounts</string>
+    <string name="label">Udinic lbl</string>
+  
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="server_client_id">409991466211-rere4cj78536f20jcf5fffak3a8ia1ds.apps.googleusercontent.com</string>
+</resources>
