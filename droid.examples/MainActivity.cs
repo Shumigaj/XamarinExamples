@@ -62,6 +62,11 @@ namespace droid.examples
                         settingActivityType = typeof(SettingsCompatActivity);
                         break;
                     }
+                case Resource.Id.action_grouped_settings_compat:
+                    {
+                        settingActivityType = typeof(GroupedSettingsCompatActivity);
+                        break;
+                    }
                 case Resource.Id.action_settings_with_headers:
                     {
                         settingActivityType = typeof(SettingsWithHeadersActivity);

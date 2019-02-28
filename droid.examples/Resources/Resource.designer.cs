@@ -2562,6 +2562,9 @@ namespace droid.examples
 			// aapt resource value: 0x7f090036
 			public const int SYM = 2131296310;
 			
+			// aapt resource value: 0x7f0900b4
+			public const int account_settings_compat = 2131296436;
+			
 			// aapt resource value: 0x7f09009d
 			public const int action0 = 2131296413;
 			
@@ -2598,6 +2601,9 @@ namespace droid.examples
 			// aapt resource value: 0x7f0900b8
 			public const int action_grouped_settings = 2131296440;
 			
+			// aapt resource value: 0x7f0900ba
+			public const int action_grouped_settings_compat = 2131296442;
+			
 			// aapt resource value: 0x7f09009b
 			public const int action_image = 2131296411;
 			
@@ -2616,11 +2622,11 @@ namespace droid.examples
 			// aapt resource value: 0x7f09005b
 			public const int action_mode_close_button = 2131296347;
 			
-			// aapt resource value: 0x7f0900b7
-			public const int action_settings_compat = 2131296439;
+			// aapt resource value: 0x7f0900b9
+			public const int action_settings_compat = 2131296441;
 			
-			// aapt resource value: 0x7f0900b6
-			public const int action_settings_with_headers = 2131296438;
+			// aapt resource value: 0x7f0900b7
+			public const int action_settings_with_headers = 2131296439;
 			
 			// aapt resource value: 0x7f09009c
 			public const int action_text = 2131296412;
@@ -2823,8 +2829,8 @@ namespace droid.examples
 			// aapt resource value: 0x7f090060
 			public const int list_item = 2131296352;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int masked = 2131296437;
+			// aapt resource value: 0x7f0900b6
+			public const int masked = 2131296438;
 			
 			// aapt resource value: 0x7f0900a0
 			public const int media_actions = 2131296416;
@@ -3090,8 +3096,8 @@ namespace droid.examples
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int visible = 2131296436;
+			// aapt resource value: 0x7f0900b5
+			public const int visible = 2131296437;
 			
 			// aapt resource value: 0x7f09003b
 			public const int withText = 2131296315;
@@ -3518,14 +3524,17 @@ namespace droid.examples
 			// aapt resource value: 0x7f0b0014
 			public const int abc_toolbar_collapse_description = 2131427348;
 			
-			// aapt resource value: 0x7f0b002f
-			public const int action_grouped_settings = 2131427375;
+			// aapt resource value: 0x7f0b002e
+			public const int action_grouped_settings = 2131427374;
+			
+			// aapt resource value: 0x7f0b0030
+			public const int action_grouped_settings_compat = 2131427376;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int action_settings = 2131427373;
 			
-			// aapt resource value: 0x7f0b002e
-			public const int action_settings_compat = 2131427374;
+			// aapt resource value: 0x7f0b002f
+			public const int action_settings_compat = 2131427375;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int action_settings_with_headers = 2131427372;
@@ -3557,44 +3566,44 @@ namespace droid.examples
 			// aapt resource value: 0x7f0b002a
 			public const int path_password_strike_through = 2131427370;
 			
-			// aapt resource value: 0x7f0b0033
-			public const int pref_group_folder_name_defailt_value = 2131427379;
-			
 			// aapt resource value: 0x7f0b0034
-			public const int pref_group_folder_name_title = 2131427380;
-			
-			// aapt resource value: 0x7f0b003c
-			public const int pref_group_header_accounts = 2131427388;
-			
-			// aapt resource value: 0x7f0b0030
-			public const int pref_group_header_general = 2131427376;
-			
-			// aapt resource value: 0x7f0b0036
-			public const int pref_group_header_notifications = 2131427382;
-			
-			// aapt resource value: 0x7f0b0039
-			public const int pref_group_ringtone_silent = 2131427385;
+			public const int pref_group_folder_name_defailt_value = 2131427380;
 			
 			// aapt resource value: 0x7f0b0035
-			public const int pref_group_themes = 2131427381;
+			public const int pref_group_folder_name_title = 2131427381;
 			
-			// aapt resource value: 0x7f0b003b
-			public const int pref_group_title_account_settings = 2131427387;
-			
-			// aapt resource value: 0x7f0b0037
-			public const int pref_group_title_new_message_notifications = 2131427383;
-			
-			// aapt resource value: 0x7f0b0038
-			public const int pref_group_title_ringtone = 2131427384;
-			
-			// aapt resource value: 0x7f0b003a
-			public const int pref_group_title_vibrate = 2131427386;
-			
-			// aapt resource value: 0x7f0b0032
-			public const int pref_group_wifi_summary = 2131427378;
+			// aapt resource value: 0x7f0b003d
+			public const int pref_group_header_accounts = 2131427389;
 			
 			// aapt resource value: 0x7f0b0031
-			public const int pref_group_wifi_title = 2131427377;
+			public const int pref_group_header_general = 2131427377;
+			
+			// aapt resource value: 0x7f0b0037
+			public const int pref_group_header_notifications = 2131427383;
+			
+			// aapt resource value: 0x7f0b003a
+			public const int pref_group_ringtone_silent = 2131427386;
+			
+			// aapt resource value: 0x7f0b0036
+			public const int pref_group_themes = 2131427382;
+			
+			// aapt resource value: 0x7f0b003c
+			public const int pref_group_title_account_settings = 2131427388;
+			
+			// aapt resource value: 0x7f0b0038
+			public const int pref_group_title_new_message_notifications = 2131427384;
+			
+			// aapt resource value: 0x7f0b0039
+			public const int pref_group_title_ringtone = 2131427385;
+			
+			// aapt resource value: 0x7f0b003b
+			public const int pref_group_title_vibrate = 2131427387;
+			
+			// aapt resource value: 0x7f0b0033
+			public const int pref_group_wifi_summary = 2131427379;
+			
+			// aapt resource value: 0x7f0b0032
+			public const int pref_group_wifi_title = 2131427378;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int search_menu_title = 2131427349;
@@ -4874,19 +4883,25 @@ namespace droid.examples
 			public const int pref_group_accounts = 2131165185;
 			
 			// aapt resource value: 0x7f070002
-			public const int pref_group_general = 2131165186;
+			public const int pref_group_compat_account = 2131165186;
 			
 			// aapt resource value: 0x7f070003
-			public const int pref_group_headers = 2131165187;
+			public const int pref_group_compat_general = 2131165187;
 			
 			// aapt resource value: 0x7f070004
-			public const int pref_group_notifications = 2131165188;
+			public const int pref_group_general = 2131165188;
 			
 			// aapt resource value: 0x7f070005
-			public const int preference_headers = 2131165189;
+			public const int pref_group_headers = 2131165189;
 			
 			// aapt resource value: 0x7f070006
-			public const int preferences_compat = 2131165190;
+			public const int pref_group_notifications = 2131165190;
+			
+			// aapt resource value: 0x7f070007
+			public const int preference_headers = 2131165191;
+			
+			// aapt resource value: 0x7f070008
+			public const int preferences_compat = 2131165192;
 			
 			static Xml()
 			{

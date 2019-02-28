@@ -7,13 +7,18 @@
       android:title="@string/action_settings_with_headers"
       app:showAsAction="never" />
   <item
+      android:id="@+id/action_grouped_settings"
+      android:orderInCategory="100"
+      android:title="@string/action_grouped_settings"
+      app:showAsAction="never" />
+  <item
       android:id="@+id/action_settings_compat"
       android:orderInCategory="100"
       android:title="@string/action_settings_compat"
       app:showAsAction="never" />
   <item
-      android:id="@+id/action_grouped_settings"
+      android:id="@+id/action_grouped_settings_compat"
       android:orderInCategory="100"
-      android:title="@string/action_grouped_settings"
+      android:title="@string/action_grouped_settings_compat"
       app:showAsAction="never" />
 </menu>

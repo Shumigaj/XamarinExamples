@@ -3,8 +3,9 @@
   
   <string name="action_settings_with_headers">Settings with headers</string>
   <string name="action_settings">Settings</string>
-  <string name="action_settings_compat">Settings compat</string>  
   <string name="action_grouped_settings">Grouped settings</string>
+  <string name="action_settings_compat">Settings compat</string>  
+  <string name="action_grouped_settings_compat">Grouped compat</string>  
   
   <string name="pref_group_header_general">General</string>
   <string name="pref_group_wifi_title">Wi-Fi</string>

@@ -13,7 +13,7 @@ namespace droid.examples.Preferences
 {
     [Activity(Label = "Grouped settings", Theme = "@style/AppTheme")]
     [IntentFilter(new string[] { "android.intent.action.APPLICATION_PREFERENCES" })]
-    public class GroupedSettingsActivity : AppCompatPreferenceActivity
+    public class GroupedSettingsActivity : BasePreferenceActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

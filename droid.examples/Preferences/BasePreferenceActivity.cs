@@ -9,7 +9,7 @@ using Java.Lang;
 
 namespace droid.examples.Preferences
 {
-    public abstract class AppCompatPreferenceActivity : PreferenceActivity
+    public abstract class BasePreferenceActivity : PreferenceActivity
     {
         private AppCompatDelegate mDelegate;
 

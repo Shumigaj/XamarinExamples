@@ -57,8 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Preferences\AppCompatPreferenceActivity.cs" />
+    <Compile Include="Preferences\BasePreferenceActivity.cs" />
     <Compile Include="Preferences\GroupedSettingsActivity.cs" />
+    <Compile Include="Preferences\GroupedSettingsCompatActivity.cs" />
     <Compile Include="Preferences\SettingsCompatActivity.cs" />
     <Compile Include="Preferences\SettingsWithHeadersActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -129,6 +130,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\xml\pref_group_notifications.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\pref_group_compat_general.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\pref_group_compat_account.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

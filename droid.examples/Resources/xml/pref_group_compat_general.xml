@@ -1,0 +1,40 @@
+﻿<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                android:layout_width="match_parent" android:layout_height="match_parent">
+  
+  <PreferenceCategory android:title="Connections category">
+    
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="wifi_switch"
+        android:summary="@string/pref_group_wifi_summary"
+        android:title="@string/pref_group_wifi_title" />
+
+    <android.support.v7.preference.Preference
+                android:title="Wikipedia">
+      <intent android:action="android.intent.action.VIEW"
+          android:data="https://en.wikipedia.org/wiki/Wi-Fi" />
+    </android.support.v7.preference.Preference>
+    
+  </PreferenceCategory>
+
+  <Preference android:title="Preference"  >
+    <intent droid.examples.Preferences.AccountSettingsCompatFragment=""
+        android:targetPackage="droid.examples"
+        android:targetClass="droid.examples.Preferences.GeneralSettingsCompatFragment"
+        android:action="prefs_update" >
+    </intent>
+  </Preference>
+
+  <android.support.v7.preference.Preference android:title="Preference fragment"
+                                            android:id="@+id/account_settings_compat"
+                                            app:fragment="droid.examples.Preferences.AccountSettingsCompatFragment" >
+    <extra
+            android:name="index"
+            android:value="1"/>
+    <extra
+        android:name="header"
+        android:value="preferences_notifications"/>
+  </android.support.v7.preference.Preference>
+  
+</android.support.v7.preference.PreferenceScreen>
